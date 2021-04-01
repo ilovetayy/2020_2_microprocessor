@@ -27,7 +27,7 @@ void initLCD(void){
 	delay(20000);
 	LCD_CTRL &= ~LCD_RW;
 	sendLCDCommand(0x38);//function set
-	sendLCDCommand(0x0F);//display on, Ä¿¼­ on, ±ôºý on
+	sendLCDCommand(0x0F);//display on, Ã„Â¿Â¼Â­ on, Â±Ã´ÂºÃ½ on
 	sendLCDCommand(0x01);//clear LCD
 	delay(1000);
 }
